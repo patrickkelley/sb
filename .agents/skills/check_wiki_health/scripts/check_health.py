@@ -1,4 +1,5 @@
 import os
+import re
 import glob
 import torch
 import nltk
@@ -17,7 +18,7 @@ def load_text_from_file(filepath):
 def main():
     print("Initializing models...")
     model = SentenceTransformer('all-MiniLM-L6-v2')
-    similarity_threshold = 0.75
+    similarity_threshold = 0.65
     
     workspace_dir = '/workspaces/sb'
     raw_file = os.path.join(workspace_dir, 'raw/imitation_of_christ/imitation_of_christ.md')
@@ -32,6 +33,11 @@ def main():
 
     print("Loading raw material...")
     raw_text = load_text_from_file(raw_file)
+    
+    # Clean up raw text safely without deleting paragraphs
+    raw_text = re.sub(r"THE IMITATION OF CHRIST\.?", " ", raw_text)
+    raw_text = re.sub(r"BOOK [A-ZIVX]+\. CHAP\.", " ", raw_text)
+    
     raw_sentences = nltk.sent_tokenize(raw_text)
     
     # Filter out very short strings which might just be whitespace or punctuation
@@ -49,6 +55,16 @@ def main():
     
     for wiki_file in wiki_files:
         wiki_text = load_text_from_file(wiki_file)
+        
+        # Strip structural lines
+        clean_lines = []
+        for line in wiki_text.split('\n'):
+            line = line.strip()
+            if line.startswith(('#', '>', '**', '---')):
+                continue
+            clean_lines.append(line)
+        wiki_text = ' '.join(clean_lines)
+        
         wiki_sentences = nltk.sent_tokenize(wiki_text)
         wiki_sentences = [s.strip() for s in wiki_sentences if len(s.strip()) > 15] # Skip very short snippets/headers
         
