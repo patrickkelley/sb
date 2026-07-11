@@ -602,9 +602,9 @@ BOOK I. CHAP.
 ## wiki/imitation_of_christ/book_1/ch22_of_the_consideration_of_the_misery_of_man_i_t.md
 
 **Wiki Sentence:**
-> Their whole desire tended upwards, to p things everlasting and invisible; fearing that the love of visible things might draw them down to things below.
+> Their whole desire tended upwards, to things everlasting and invisible; fearing that the love of visible things might draw them down to things below.
 
-**Closest Match in Raw Text (Score: 0.6477):**
+**Closest Match in Raw Text (Score: 0.6682):**
 > They are as yet much inclined to such or such by a natural affection and human friendship ; and as they are affected with regard to things below, they conceive the like imaginations of the things of heaven.
 
 ---
