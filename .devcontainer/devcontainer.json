@@ -1,0 +1,22 @@
+{
+  "name": "Imitation of Christ Dev Workspace",
+  "image": "mcr.microsoft.com/devcontainers/python:3.10-bullseye",
+  "features": {
+    "ghcr.io/devcontainers/features/github-cli:1": {}
+  },
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "files.trimTrailingWhitespace": true,
+        "files.insertFinalNewline": true
+      },
+      "extensions": [
+        "davidanson.vscode-markdownlint",
+        "shd101wyy.markdown-preview-enhanced",
+        "bierner.markdown-preview-github-styles",
+        "koichas.epub-reader"
+      ]
+    }
+  },
+  "postCreateCommand": "python3 --version && git --version"
+}
