@@ -7,6 +7,13 @@ This project focuses on processing, cleaning, and formatting the digital edition
 - [wiki/](file:///workspaces/sb/wiki/): Destination directory for structured, clean wiki pages per book/chapter.
 - [output/](file:///workspaces/sb/output/): Destination directory for compiled and formatted outputs.
 
+### The Three-Tier Architecture Map
+```text
+├── raw/       # Incoming raw data (Web clippings, scratchpad ideas, meeting transcripts)
+├── wiki/      # Your permanent network (Atomic evergreen notes, cross-linked concepts)
+└── output/    # The deliverables (Synthesized reports, essays, documentation, slide outlines)
+```
+
 ## Rules & Formatting Guidelines
 1. **OCR Cleanup**: Actively identify and fix common OCR errors, stray characters, and incorrect words. Remove page numbers, running headers, and Google watermarks/guidelines from the text during extraction.
 2. **Markdown Structure**: Use clear, semantic Markdown headers. Ensure each book and chapter is formatted cleanly with consistent heading levels.

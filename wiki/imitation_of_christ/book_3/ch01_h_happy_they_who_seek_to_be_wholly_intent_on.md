@@ -1,0 +1,12 @@
+# H^ Happy they who seek to be wholly intent on God, and who rid themselves of every worldly impediment. Mind these things, O my soul, and shut the doors of thy senses, that thou mayest hear what the Lord thy God speaks within thee. [ChrisL] II. Thus saith thy beloved: / am thy salvation, thy peace, and thy life : abide in me, and thou shalt find peace. Let alone all transitory things 3 and seek things eternal. What are all temporal things but deceit ? And what will all things created avail thee, if thou be forsaken by thy Creator. Cast off then all earthly things, and make thyself agreeable to thy Creator, and faithful to Him, that so thou mayest attain to true happiness. REFLECTION. I«t US listen to the Divine Wisdom : My delight is to he with the children of men (Prov., viii. 31), Rut the greater part of mankind, not understanding this language, or fearing to understand it, withdraw from Him to take delight in the company of creatures. He was in the world and the world knew him not (John, i. 10). This is why the Apostle cautions us against loving the world or the things which are in the woi Id. If we wish, then, to draw ID ourselves the spirit of God, ol which the unction \
+
+> **Book 3, Chapter 1** — *The Imitation of Christ* by [[Thomas à Kempis]]
+
+## Text
+
+itmckeik ail tkingf (i John, ii. tjy, let us aepante oufielfcs from the world ; let os renounoe its maxims, iti pkuuics, its tumultous societies. Jesus is only found in the desert ; neither shall any man hear Bis viieein the streets (MatL, xiL 19) ; but when He has resolved to pour out His &voars on the feithful soul, H« leads her unto the wilderness^ and there He speaks to her heart (Osee^ ii. 14). How can the deItghu of this celestial conveisation be described? lliofe who have tasted the pleasure of it once can no longer bear the conversations of men; ASPIEATIOK. O Jesus ! speak to my heart ; henceforth I wish to bear thy voioe alone, amid the silence of all creatures.
+
+---
+
+**Themes:** [[Detachment]], [[Patience]]
+**Next:** [[Book 3 Ch 02 — The Thith speaks within as withont noise of wocdai [DUciple] I. SpEJK, Lordyfor tky servant heareth, — i Kings, ii*. 10. lam thy servant, give me understanding that I may know thy testimonies, — Ps. cjviii. I2j. Incline my heart to the words of thy mouth ', let thy speech distil as the dew. Heretofore the children of Israel said to Moses : Speak thou to us, and we will hear: let not the Lord speak to us, lest we du*. — £xod.^ XX. 19. It is not thus^ O l/ird, it is not thus I pray; but rather with the prophet Samuel, I]]
