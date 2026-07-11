@@ -1,10 +1,10 @@
-# or the Internal Speech of Chrht to a ikithfiil Soul, IDisciple.] I. / *7xi. hear what the Lord God wUl speak tome. — Ps. Ixxxiv. Happy is that soul which heareth the Lord speaking within her, and from his mouth receiveth the word of comfort ! Happy ears, which receive the accents of the Divine whisper, and take no notice of the whisperings of the world. Happy ears indeed, which hearken to truth itself teaching within, and not to the voice which soundeth without. Happy eyes, which are shut to outward things, and attentive to the interior. Happy they who penetrate into internal things, and endeavour to prepare themselves more and more, by daily exercises, to the attaining to heavenly secrets
+# or the Internal Speech of Chrht to a ikithfiil Soul, IDisciple.]
 
 > **Book 3, Chapter 1** — *The Imitation of Christ* by [[Thomas à Kempis]]
 
 ## Text
 
-BOOK III.
+ I. / *7xi. hear what the Lord God wUl speak tome. — Ps. Ixxxiv. Happy is that soul which heareth the Lord speaking within her, and from his mouth receiveth the word of comfort ! Happy ears, which receive the accents of the Divine whisper, and take no notice of the whisperings of the world. Happy ears indeed, which hearken to truth itself teaching within, and not to the voice which soundeth without. Happy eyes, which are shut to outward things, and attentive to the interior. Happy they who penetrate into internal things, and endeavour to prepare themselves more and more, by daily exercises, to the attaining to heavenly secrets
 
 ---
 
