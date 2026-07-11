@@ -60,7 +60,7 @@ def main():
         clean_lines = []
         for line in wiki_text.split('\n'):
             line = line.strip()
-            if line.startswith(('#', '>', '**', '---')):
+            if line.startswith(('#', '>', '**', '---', '- ', '* ', '*See also:*')):
                 continue
             clean_lines.append(line)
         wiki_text = ' '.join(clean_lines)
