@@ -1,4 +1,5 @@
 import os
+import re
 import glob
 import torch
 import nltk
@@ -32,6 +33,13 @@ def main():
 
     print("Loading raw material...")
     raw_text = load_text_from_file(raw_file)
+    
+    # Clean up raw text safely without deleting paragraphs
+    raw_text = re.sub(r"^\s*\d*\s*THE IMITATION OF CHRIST[,.]?\s*$", " ", raw_text, flags=re.MULTILINE)
+    raw_text = re.sub(r"^\s*BOOK [A-ZIVX]+\.\s*CHAP\.\s*[A-ZIVX]*\.?\s*$", " ", raw_text, flags=re.MULTILINE)
+    raw_text = re.sub(r"^\s*[A-ZIVX]+\.\s*$", " ", raw_text, flags=re.MULTILINE)
+    raw_text = re.sub(r"^\s*\d+\s*$", " ", raw_text, flags=re.MULTILINE)
+    
     raw_sentences = nltk.sent_tokenize(raw_text)
     
     # Filter out very short strings which might just be whitespace or punctuation
@@ -49,6 +57,16 @@ def main():
     
     for wiki_file in wiki_files:
         wiki_text = load_text_from_file(wiki_file)
+        
+        # Strip structural lines
+        clean_lines = []
+        for line in wiki_text.split('\n'):
+            line = line.strip()
+            if line.startswith(('#', '>', '**', '---', '- ', '* ', '*See also:*')):
+                continue
+            clean_lines.append(line)
+        wiki_text = ' '.join(clean_lines)
+        
         wiki_sentences = nltk.sent_tokenize(wiki_text)
         wiki_sentences = [s.strip() for s in wiki_sentences if len(s.strip()) > 15] # Skip very short snippets/headers
         
