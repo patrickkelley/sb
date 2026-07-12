@@ -1,6 +1,6 @@
 # Divine Consolation
 
-The sweetness, joy, and interior comfort that God sometimes bestows upon faithful souls. While not to be sought for its own sake, divine consolation strengthens the soul for its journey.
+ 
 
 ## Key References
 

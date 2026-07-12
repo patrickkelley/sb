@@ -1,6 +1,6 @@
 # Grace
 
- Without grace, man can do nothing toward salvation; with it, all things are possible.
+ 
 
 ## Key References
 

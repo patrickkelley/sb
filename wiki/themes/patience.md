@@ -1,6 +1,6 @@
 # Patience
 
- Patience is presented as essential for spiritual progress and as a participation in the sufferings of Christ.
+ 
 
 ## Key References
 

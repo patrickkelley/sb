@@ -1,6 +1,6 @@
 # Humility
 
-The foundational virtue in *[[The Imitation of Christ]]*. Humility involves recognizing one's nothingness before God, embracing lowliness, and resisting the temptations of pride and vainglory.
+ Humility involves recognizing one's nothingness before God, embracing lowliness, and resisting the temptations of pride and vainglory.
 
 ## Key References
 

@@ -18,7 +18,7 @@ def load_text_from_file(filepath):
 def main():
     print("Initializing models...")
     model = SentenceTransformer('all-MiniLM-L6-v2')
-    similarity_threshold = 0.65
+    similarity_threshold = 0.75
     
     workspace_dir = '/workspaces/sb'
     raw_file = os.path.join(workspace_dir, 'raw/imitation_of_christ/imitation_of_christ.md')
@@ -35,8 +35,10 @@ def main():
     raw_text = load_text_from_file(raw_file)
     
     # Clean up raw text safely without deleting paragraphs
-    raw_text = re.sub(r"THE IMITATION OF CHRIST\.?", " ", raw_text)
-    raw_text = re.sub(r"BOOK [A-ZIVX]+\. CHAP\.", " ", raw_text)
+    raw_text = re.sub(r"^\s*\d*\s*THE IMITATION OF CHRIST[,.]?\s*$", " ", raw_text, flags=re.MULTILINE)
+    raw_text = re.sub(r"^\s*BOOK [A-ZIVX]+\.\s*CHAP\.\s*[A-ZIVX]*\.?\s*$", " ", raw_text, flags=re.MULTILINE)
+    raw_text = re.sub(r"^\s*[A-ZIVX]+\.\s*$", " ", raw_text, flags=re.MULTILINE)
+    raw_text = re.sub(r"^\s*\d+\s*$", " ", raw_text, flags=re.MULTILINE)
     
     raw_sentences = nltk.sent_tokenize(raw_text)
     
